@@ -1,8 +1,8 @@
 package ka.enlatados.empresa.impl;
 import org.springframework.stereotype.Service;
-import ka.enlatados.empresa.datastructure.ListaPedido;
-import ka.enlatados.empresa.model.Caja;
-import ka.enlatados.empresa.model.Pedido;
+import ka.enlatados.empresa.service.eddLineales.ListaPedido;
+import ka.enlatados.empresa.entity.Caja;
+import ka.enlatados.empresa.entity.Pedido;
 import ka.enlatados.empresa.service.PedidoService;
 @Service
 public class PedidoServiceImpl implements PedidoService {

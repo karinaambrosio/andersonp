@@ -1,7 +1,7 @@
 package ka.enlatados.empresa.controller;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-import ka.enlatados.empresa.model.Repartidor;
+import ka.enlatados.empresa.entity.Repartidor;
 import ka.enlatados.empresa.service.RepartidorService;
 @RestController
 @RequestMapping("/api/repartidores")

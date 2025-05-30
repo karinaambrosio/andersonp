@@ -1,4 +1,4 @@
-package ka.enlatados.empresa.model;
+package ka.enlatados.empresa.entity;
 import java.time.LocalDateTime;
 public class Pedido {
     private String id;

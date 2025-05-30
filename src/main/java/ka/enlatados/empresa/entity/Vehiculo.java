@@ -1,4 +1,4 @@
-package ka.enlatados.empresa.model;
+package ka.enlatados.empresa.entity;
 public class Vehiculo {
     private String placa;
     private String marca;

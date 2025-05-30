@@ -1,5 +1,5 @@
 package ka.enlatados.empresa.service;
-import ka.enlatados.empresa.model.Cliente;
+import ka.enlatados.empresa.entity.Cliente;
 public interface ClienteService {
     void agregar(Cliente c);
     Cliente buscar(String dpi);

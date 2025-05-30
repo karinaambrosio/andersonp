@@ -1,4 +1,4 @@
-package ka.enlatados.empresa.model;
+package ka.enlatados.empresa.entity;
 public class Repartidor {
     private String cui;
     private String nombre;

@@ -1,6 +1,6 @@
 package ka.enlatados.empresa.service;
-import ka.enlatados.empresa.model.Caja;
-import ka.enlatados.empresa.model.Pedido;
+import ka.enlatados.empresa.entity.Caja;
+import ka.enlatados.empresa.entity.Pedido;
 public interface PedidoService {
     void agregar(Pedido p);
     Iterable<Pedido> listar();

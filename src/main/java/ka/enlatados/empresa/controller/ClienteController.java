@@ -1,7 +1,7 @@
 package ka.enlatados.empresa.controller;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-import ka.enlatados.empresa.model.Cliente;
+import ka.enlatados.empresa.entity.Cliente;
 import ka.enlatados.empresa.service.ClienteService;
 @RestController
 @RequestMapping("/api/clientes")

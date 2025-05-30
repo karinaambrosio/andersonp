@@ -1,5 +1,5 @@
-package ka.enlatados.empresa.datastructure;
-import ka.enlatados.empresa.model.Repartidor;
+package ka.enlatados.empresa.service.eddLineales;
+import ka.enlatados.empresa.entity.Repartidor;
 import java.util.LinkedList;
 import java.util.Queue;
 public class ColaRepartidor {

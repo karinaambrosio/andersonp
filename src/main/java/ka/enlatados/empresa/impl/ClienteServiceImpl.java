@@ -1,7 +1,7 @@
 package ka.enlatados.empresa.impl;
 import org.springframework.stereotype.Service;
-import ka.enlatados.empresa.datastructure.ArbolAVL;
-import ka.enlatados.empresa.model.Cliente;
+import ka.enlatados.empresa.service.eddNoLineales.ArbolAVL;
+import ka.enlatados.empresa.entity.Cliente;
 import ka.enlatados.empresa.service.ClienteService;
 @Service
 public class ClienteServiceImpl implements ClienteService {

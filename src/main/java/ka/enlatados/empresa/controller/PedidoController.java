@@ -1,8 +1,8 @@
 package ka.enlatados.empresa.controller;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-import ka.enlatados.empresa.model.Caja;
-import ka.enlatados.empresa.model.Pedido;
+import ka.enlatados.empresa.entity.Caja;
+import ka.enlatados.empresa.entity.Pedido;
 import ka.enlatados.empresa.service.PedidoService;
 @RestController
 @RequestMapping("/api/pedidos")

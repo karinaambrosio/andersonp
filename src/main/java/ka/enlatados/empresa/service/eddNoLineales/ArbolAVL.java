@@ -1,5 +1,5 @@
-package ka.enlatados.empresa.datastructure;
-import ka.enlatados.empresa.model.Cliente;
+package ka.enlatados.empresa.service.eddNoLineales;
+import ka.enlatados.empresa.entity.Cliente;
 import java.util.ArrayList;
 import java.util.List;
 public class ArbolAVL {

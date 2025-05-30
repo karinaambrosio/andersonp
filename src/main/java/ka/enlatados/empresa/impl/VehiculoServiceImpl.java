@@ -1,7 +1,7 @@
 package ka.enlatados.empresa.impl;
 import org.springframework.stereotype.Service;
-import ka.enlatados.empresa.datastructure.ColaVehiculo;
-import ka.enlatados.empresa.model.Vehiculo;
+import ka.enlatados.empresa.service.eddLineales.ColaVehiculo;
+import ka.enlatados.empresa.entity.Vehiculo;
 import ka.enlatados.empresa.service.VehiculoService;
 @Service
 public class VehiculoServiceImpl implements VehiculoService {

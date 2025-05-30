@@ -1,5 +1,5 @@
-package ka.enlatados.empresa.datastructure;
-import ka.enlatados.empresa.model.Caja;
+package ka.enlatados.empresa.service.eddLineales;
+import ka.enlatados.empresa.entity.Caja;
 import java.util.ArrayList;
 import java.util.List;
 public class ListaCajaPedido {
