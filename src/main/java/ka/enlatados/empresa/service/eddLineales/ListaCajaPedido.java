@@ -7,8 +7,7 @@ public class ListaCajaPedido {
     private class Nodo {
         Caja dato;
         Nodo sig;
-        Nodo(Caja c) { dato = c; }
-    }
+        Nodo(Caja c) { dato = c; }}
     public void agregar(Caja c) {
         Nodo n = new Nodo(c);
         if (inicio == null) inicio = n;
@@ -18,8 +17,7 @@ public class ListaCajaPedido {
             t.sig = n;
         }
     }
-    public Iterable<Caja> listar() {
-        List<Caja> lista = new ArrayList<>();
+    public Iterable<Caja> listar() {List<Caja> lista = new ArrayList<>();
         Nodo t = inicio;
         while (t != null) {
             lista.add(t.dato);

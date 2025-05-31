@@ -7,3 +7,4 @@ public class EnlatadosApplication {
         SpringApplication.run(EnlatadosApplication.class, args);
     }
 }
+//id,nombre,apellidos,contraseña

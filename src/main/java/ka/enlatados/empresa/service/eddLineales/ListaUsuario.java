@@ -1,18 +1,13 @@
 package ka.enlatados.empresa.service.eddLineales;
-
 import ka.enlatados.empresa.entity.Usuario;
 import java.util.ArrayList;
 import java.util.List;
-
 public class ListaUsuario {
     private Nodo inicio;
-
     private class Nodo {
         Usuario dato;
         Nodo sig;
-        Nodo(Usuario u) { dato = u; }
-    }
-
+        Nodo(Usuario u) { dato = u; }}
     public void agregar(Usuario u) {
         Nodo nuevo = new Nodo(u);
         if (inicio == null) {
@@ -25,9 +20,7 @@ public class ListaUsuario {
             t.sig = nuevo;
         }
     }
-
-    public Usuario buscar(Long id) {
-        Nodo t = inicio;
+    public Usuario buscar(Long id) {Nodo t = inicio;
         while (t != null) {
             if (t.dato.getId().equals(id)) {
                 return t.dato;
@@ -36,9 +29,7 @@ public class ListaUsuario {
         }
         return null;
     }
-
-    public Iterable<Usuario> listar() {
-        List<Usuario> lista = new ArrayList<>();
+    public Iterable<Usuario> listar() {List<Usuario> lista = new ArrayList<>();
         Nodo t = inicio;
         while (t != null) {
             lista.add(t.dato);

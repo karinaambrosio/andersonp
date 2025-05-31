@@ -14,15 +14,11 @@ public class PedidoServiceImpl implements PedidoService {
     @Override
     public Pedido buscar(String id) { return lista.buscar(id); }
     @Override
-    public void agregarCaja(String pedidoId, Caja caja) {
-        lista.agregarCaja(pedidoId, caja);
+    public void agregarCaja(String pedidoId, Caja caja) {lista.agregarCaja(pedidoId, caja);}
+    @Override
+    public Iterable<Caja> listarCajas(String pedidoId) {return lista.listarCajas(pedidoId);
     }
     @Override
-    public Iterable<Caja> listarCajas(String pedidoId) {
-        return lista.listarCajas(pedidoId);
-    }
-    @Override
-    public void completar(String pedidoId) {
-        lista.completar(pedidoId);
+    public void completar(String pedidoId) {lista.completar(pedidoId);
     }
 }
